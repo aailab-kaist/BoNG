@@ -2,6 +2,8 @@
 
 **Authors: [Richard Lee Kim](https://sites.google.com/view/richard-lee-kim/), [Yeongmin Kim](https://sites.google.com/view/yeongmin-space/), Gyuwon Sim, Taekyu Kim, Minsang Park, and Il-Chul Moon**
 
+[[Paper]](https://arxiv.org/abs/2610.05108)
+
 ## Overview
 
 **Best-of-N Guidance (BoNG)** is a simple and efficient test-time alignment method that turns Best-of-N sampling into a guidance scheme for diffusion models. At each guided timestep, the current best particle steers the rest of the population toward high-reward regions, using one-step denoised samples in place of expensive rollouts. BoNG shows superior performance compared to prior guidance methods at a much lower computational cost, while avoiding the particle collapse of Sequential Monte Carlo (SMC).
@@ -64,7 +66,14 @@ This codebase builds upon and is inspired by:
 
 ## Citation
 
-Soon to come up!
+```bibtex
+@article{kim2026bong,
+  title={Best-of-{N} Guidance for Test-time Diffusion Alignment},
+  author={Kim, Richard Lee and Kim, Yeongmin and Sim, Gyuwon and Kim, Taekyu and Park, Minsang and Moon, Il-Chul},
+  journal={arXiv preprint arXiv:2610.05108},
+  year={2026}
+}
+```
 
 ## License
 
